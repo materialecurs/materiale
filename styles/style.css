@@ -37,6 +37,17 @@ img {
   align-content: center;
 }
 
+
+.content {
+   display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+
+}
+
 .orientation {
     background-color:#02B187;
     height:100px;
@@ -48,6 +59,15 @@ img {
     padding-top:30px;
 
 
+}
+
+
+
+.links {
+    
+    height:30px;
+    padding:5px;
+    background-color:#3A009C;
 }
 
 
