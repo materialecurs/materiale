@@ -28,7 +28,14 @@ img {
 
 
 
-
+.top {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
 
 .orientation {
     background-color:#02B187;
