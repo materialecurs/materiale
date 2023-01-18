@@ -1,0 +1,55 @@
+.title{ 
+    font-weight:bold;
+}
+
+table, th, td {
+    border: 1px solid rgb(217, 241, 255);
+    padding:4px;
+    height:30px;
+    min-width:100px;
+    }
+
+    th{
+        background-color:orange;
+    }
+
+.checked{
+    background-color:LightGreen;
+}    
+
+.ingredients-table{
+    display:block;
+}
+
+.flex-container{
+      display:flex;   
+}
+
+.selected-item{
+    background-color:white;
+    border:1px solid white;
+    color:green;
+    
+    
+   
+}
+
+.selected-blank{
+    background-color:white;
+}
+
+.icons{
+    width:31px;
+    height:31px;
+}
+
+.ingredient-text{
+    
+   
+   
+    background-color:LightGreen;
+    display:inline;
+    padding:5px;
+   
+    
+}
