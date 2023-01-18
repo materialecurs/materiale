@@ -1,4 +1,4 @@
-th {
+html {
     
     font-family: 'Poppins', sans-serif;
 
@@ -7,7 +7,7 @@ th {
 
 .title{ 
     font-weight:bold;
-    font-family: 'Poppins', sans-serif;
+   
 }
 
 table, th, td {
