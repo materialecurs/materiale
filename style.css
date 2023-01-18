@@ -1,5 +1,7 @@
-html{
+th {
+    
     font-family: 'Poppins', sans-serif;
+
 }
 
 
@@ -14,23 +16,23 @@ table, th, td {
     min-width:100px;
     }
 
-    th{
+    th {
         background-color:orange;
     }
 
-.checked{
+.checked {
     background-color:LightGreen;
 }    
 
-.ingredients-table{
+.ingredients-table {
     display:block;
 }
 
-.flex-container{
+.flex-container {
       display:flex;   
 }
 
-.selected-item{
+.selected-item {
     background-color:white;
     border:1px solid white;
     color:green;
@@ -39,16 +41,16 @@ table, th, td {
    
 }
 
-.selected-blank{
+.selected-blank {
     background-color:white;
 }
 
-.icons{
+.icons {
     width:31px;
     height:31px;
 }
 
-.ingredient-text{
+.ingredient-text {
     
    
    
