@@ -5,6 +5,14 @@ html {
 
 }
 
+.orientation {
+    background-color:#02B187;
+    height:100px;
+    width:100%;
+
+
+}
+
 
 .title{ 
     font-weight:bold;
