@@ -1,105 +1,90 @@
-
-
-
 html {
-  box-sizing: border-box;
-  font-size: 16px;
-  font-family: 'Poppins', sans-serif;
-}
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+  }
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: normal;
-}
-
-ol, ul {
-  list-style: none;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-
-
-.top {
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  align-content: center;
-}
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
 
 
-.content {
-   display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  align-content: center;
 
-}
-
-.orientation {
-    background-color:#02B187;
-    height:300px;
-    width:100%;
-    font-size:48px;
-    text-align:center;
-    color:#fff;
-    font-weight:bold;
-   
-
-
+header h1 {
+    background-color: #02B187;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5em;
 }
 
 
+.links-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #3A009C;
+    align-items: center;
+}
 
 .links {
+    font-size:21px;
     
-    height:30px;
-    padding:5px;
-    background-color:#3A009C;
+    
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
 }
 
 
-.title{ 
-    font-weight:bold;
-   
-}
+
+
+
 
 table, th, td {
-    border: 1px solid rgb(217, 241, 255);
+    border: 1px solid rgb(255, 255, 255);
     padding:4px;
-    height:30px;
-    min-width:100px;
+    
+    font-size: 12px;
     }
 
-    th {
+    table {
+        border: 10px solid rgb(255, 255, 255);
+    }
+
+    th{
         background-color:orange;
     }
 
-.checked {
-    background-color:LightGreen;
+.checked{
+    background-color:rgb(223, 241, 223);
 }    
 
-.ingredients-table {
+.ingredients-table{
     display:block;
 }
 
-.flex-container {
-      display:flex;   
-}
 
-.selected-item {
+
+.selected-item{
     background-color:white;
     border:1px solid white;
     color:green;
@@ -108,16 +93,16 @@ table, th, td {
    
 }
 
-.selected-blank {
+.selected-blank{
     background-color:white;
 }
 
-.icons {
+.icons{
     width:31px;
     height:31px;
 }
 
-.ingredient-text {
+.ingredient-text{
     
    
    
@@ -125,5 +110,16 @@ table, th, td {
     display:inline;
     padding:5px;
    
+    
+}
+
+
+.tables-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: rgb(217, 241, 255);
     
 }
