@@ -37,6 +37,14 @@ header h1 {
 }
 
 
+.spacer {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
 .links-container {
     display:flex;
     flex-direction: column;
@@ -62,17 +70,27 @@ header h1 {
 table, th, td {
     border: 1px solid rgb(255, 255, 255);
     padding:4px;
-    
+    background-color: rgb(240, 249, 255);
     font-size: 12px;
+    border-radius: 10px;
     }
 
     table {
         border: 10px solid rgb(255, 255, 255);
     }
 
-    th{
+    th {
         background-color:orange;
+        height: 30px;
     }
+
+    
+
+.category {
+    font-size:21px;
+    background-color:rgb(255, 255, 255);
+    height: 45px;
+}
 
 .checked{
     background-color:rgb(223, 241, 223);
@@ -120,6 +138,6 @@ table, th, td {
     justify-content: center;
     width: 100%;
     flex-wrap: wrap;
-    background-color: rgb(217, 241, 255);
+    
     
 }
